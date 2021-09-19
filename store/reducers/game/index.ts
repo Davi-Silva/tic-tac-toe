@@ -52,8 +52,6 @@ export default function game(state = initialState, action) {
         isXNext: { $set: true },
         nextSymbol: { $set: "X" },
         winner: { $set: null },
-        player: { $set: 0 },
-        turn: { $set: 0 },
         message: { $set: null },
       });
     case "SET_PLAYERS_NAME":
